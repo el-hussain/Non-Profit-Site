@@ -22,4 +22,4 @@ The Mobile-First Responsive Design approach was followed.
 
 ## Developer
 
-Erfan Al-Marwani
+Hussaini Suleiman / Idris Shehu

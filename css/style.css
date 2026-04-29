@@ -183,7 +183,7 @@ header {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070");
+    url("../images/Background-img.png");
   background-size: cover;
   background-position: center;
   color: white;
