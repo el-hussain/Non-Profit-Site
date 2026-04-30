@@ -304,6 +304,7 @@ header {
 
 .project-card {
   background-color: var(--card-bg);
+  background-image: url("/images/Background-img.png");
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: var(--card-shadow);
