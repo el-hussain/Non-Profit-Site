@@ -316,13 +316,30 @@ header {
 }
 
 .project-img {
-  height: 200px;
+  height: 300px;
   background-color: var(--secondary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 3rem;
+  overflow: hidden;
+  position: relative;
+
+}
+.project-img img {
+  position: absolute; /* ← CHANGE TO THIS */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-img img {
+  transform: scale(1.05);
 }
 
 .project-content {
