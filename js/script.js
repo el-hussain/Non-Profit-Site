@@ -36,6 +36,17 @@ document.addEventListener("DOMContentLoaded", function () {
     navMenu.classList.toggle("active");
   });
 
+
+  // Gallery Carousel
+  const track = document.querySelector(".carousel-track");
+  if (track) {
+    document.querySelector(".carousel-prev").addEventListener("click", () => {
+      track.scrollBy({ left: -320, behavior: "smooth" });
+    });
+    document.querySelector(".carousel-next").addEventListener("click", () => {
+      track.scrollBy({ left: 320, behavior: "smooth" });
+    });
+  }
   // Contact Form Validation
   const contactForm = document.getElementById("contactForm");
   if (contactForm) {
